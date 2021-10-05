@@ -1,0 +1,26 @@
+{
+  "name": "@2cm/cli",
+  "version": "1.0.0",
+  "description": "CLI for 2*CM projects",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+  },
+  "keywords": ["Crazzy Code Monkey","2CM", "2*CM","cli"],
+  "author": "Trace Sinclair",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "colorize": "^0.1.0",
+    "inquirer": "^8.1.5",
+    "nconf": "^0.11.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrazzyCodeMonkey/2cm-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CrazzyCodeMonkey/2cm-cli/issues"
+  },
+  "homepage": "https://github.com/CrazzyCodeMonkey/2cm-cli#readme"
+}
