@@ -1,11 +1,11 @@
 {
   "name": "@2cm/cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CLI for working with 2*CM projects",
   "main": "src/index.js",
   "bin": {
-    "@2cm/cli": "bin/cli",
-    "cli": "bin/cli"
+    "@2cm/cli": "bin/2cm-cli",
+    "2cm-cli": "bin/2cm-cli"
   },
   "dependencies": {
     "esm": "^3.2.25"

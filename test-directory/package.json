@@ -4,13 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"@2cm/cli"
-
+    "start": "2cm-cli"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@2cm/cli": "0.0.1"
+    "@2cm/cli": "^0.0.1"
   }
 }
