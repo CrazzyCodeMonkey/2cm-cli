@@ -1,3 +1,3 @@
-export function cli() {
-  console.log("HERE I AM");
-}
+module.exports = function cli() {
+  console.log('HERE I AM');
+};

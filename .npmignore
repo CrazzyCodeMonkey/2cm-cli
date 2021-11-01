@@ -1,0 +1,9 @@
+node_modules
+test-directory
+.vscode
+.gitignore
+.prettierignore
+.prettierrc
+*.test.js
+jest.config.js
+jest.staged.config.js
