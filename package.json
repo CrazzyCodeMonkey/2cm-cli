@@ -1,0 +1,60 @@
+{
+  "name": "@2cm/cli",
+  "version": "0.0.4",
+  "description": "CLI for working with 2*CM projects",
+  "main": "src/index.js",
+  "bin": {
+    "@2cm/cli": "bin/2cm-cli",
+    "2cm-cli": "bin/2cm-cli"
+  },
+  "dependencies": {
+    "commander": "^8.2.0",
+    "esm": "^3.2.25"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jest": "^25.2.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-testing-library": "^5.0.0",
+    "husky": "^7.0.2",
+    "jest": "^27.3.1",
+    "lint-staged": "^11.2.3",
+    "prettier": "^2.4.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:staged": "npm test -- -c=jest.staged.config.js",
+    "lint": "eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrazzyCodeMonkey/2cm-cli.git"
+  },
+  "keywords": [
+    "Crazzy Code Monkey",
+    "2CM",
+    "2*CM",
+    "CLI",
+    "Testing"
+  ],
+  "author": "Trace Sinclair",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/CrazzyCodeMonkey/2cm-cli/issues"
+  },
+  "homepage": "https://github.com/CrazzyCodeMonkey/2cm-cli#readme",
+  "lint-staged": {
+    "src/**/*.{js}": [
+      "eslint . --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
